@@ -9,6 +9,10 @@ $this->need('header.php');
 $this->widget('Widget_Metas_Category_List')->to($categories);
 ?>
 
+<header>
+	<h1><?php $this->title() ?></h1>
+</header>
+
 <article>
 <ul>
 

@@ -9,6 +9,10 @@ $this->need('header.php');
 $this->widget('Widget_Metas_Tag_Cloud', array('sort'=>'count', 'ignoreZeroCount'=>false, 'desc'=>true, 'limit'=>10000))->to($tags);
 ?>
 
+<header>
+	<h1><?php $this->title() ?></h1>
+</header>
+
 <article>
 <ul>
 
