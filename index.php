@@ -2,10 +2,10 @@
 /**
  * 这是 Typecho 系统的一套皮肤
  * 
- * @package Typecho Theme 
- * @author John Doe
+ * @package Simple 
+ * @author Strval
  * @version 1.0
- * @link http://typecho.org
+ * @link http://strval.com
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
