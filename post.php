@@ -13,4 +13,5 @@
     </ul>
 </article><!-- end #main-->
 
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>

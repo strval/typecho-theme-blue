@@ -6,6 +6,8 @@
 </header>
 <article>
     <?php $this->content(); ?>
-</article><!-- end #main-->
+</article>
+<!-- end #main-->
 
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>

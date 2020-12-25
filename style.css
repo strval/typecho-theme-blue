@@ -74,9 +74,55 @@ footer {
 .page-navigator {
 	text-align: center;
 	list-style: none;
+	margin-top: 36px;
 }
 
 .page-navigator li {
 	display: inline-block;
 	padding: 0 5px;
+}
+
+#comments ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#comments li.comment-body {
+	font-size: 14px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	word-break: break-all;
+}
+
+#comments li.comment-body li.comment-body {
+	margin-left: 60px;
+}
+
+img.avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+#comment-form label {
+	display: block;
+}
+
+.comment-author, .comment-meta {
+	line-height: 18px;
+	font-size: 13px;
+}
+
+.comment-author cite {
+	font-style: normal;
+}
+
+.comment-content {
+	margin: 10px 0;
+	line-height: 20px;
+}
+
+.respond {
+	margin-top: 20px;
 }
